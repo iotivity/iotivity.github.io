@@ -1,6 +1,6 @@
 ---
 layout: single
-title: Contribute to OneDM
+title: Contribute to IoTivivy
 overview: true
 permalink: /contribute/
 
