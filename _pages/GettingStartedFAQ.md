@@ -13,7 +13,7 @@ toc_icon: cog
 toc_sticky : true
 ---
 
-## If you're having issues getting started with IoTivity, these common questions and answers should help.
+If you're having issues getting started with IoTivity, these common questions and answers should help.
 
 ### I'm having issues with curl
 
