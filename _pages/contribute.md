@@ -22,6 +22,9 @@ There are many ways to get involved in the IoTivity community that do not involv
 Follow the links below to start participating in the IoTivity project.
 
 Submit patches or review submissions by others
+
+* [Wiki](https://github.com/iotivity/iotivity-lite/wiki)
+
 File bugs or document feature requests
 Subscribe to the mailing lists
-Follow along with the blog, Twitter, and Facebook
+Follow along with the blog, [Twitter](https://twitter.com/IoTivity), and Facebook
