@@ -29,12 +29,14 @@ IoT means interacting with the physical world, hence the physical device is impo
 
 The OCF Secure IP Device Framework therefore is focusing on the code that is needed on the physical device. e.g. it covers:
 
-Device 2 Device communication
-Device 2 Cloud communication
+* Device 2 Device communication
+* Device 2 Cloud communication
+
 This is is same communication that IoTivity is covering.
 
 The full communication mechanisms are depicted in the image below.
 
+![communication mechanisms](../assets/images/picture1-1.png "communication mechanisms")
 
 
 ## OCF Secure IP Device Framework on the (Embedded) device
@@ -52,8 +54,11 @@ The OCF Secure IP Device Framework stack is designed:
 * The payloads can be defined in any (existing) content types.
 * For example: CBOR, JSON, XML
 * Using CoAP allowing the same communication paradigms as used on top of HTTP, but then with smaller communication packages
-* The OCF Core Framework architecture is restfull, but the application is not limited to that paradigm OCF Secure IP Device Framework solution space
+* The OCF Core Framework architecture is restfull, but the application is not limited to that paradigm 
 
+## OCF Secure IP Device Framework solution space
+
+![the solution space](../assets/images/cfpicture2-1536x664.png "the solution space")
 
 ## Security aspects of the OCF Secure IP Device Framework
 
@@ -69,4 +74,4 @@ OCF has investigated the external requirements against the OCF security specific
 
 The result of this comparison is captured below.
 
-TODO
+TODO: link to github website
