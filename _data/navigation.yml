@@ -1,8 +1,8 @@
 main:
   - title: "Home"
     url: /home/
-  - title: "Architecture"
-    url: /architecture/
+  - title: "Documentation"
+    url: /documentation/
     children:
       - title: "Contribute"
         url: /contribute/
