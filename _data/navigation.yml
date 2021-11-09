@@ -40,8 +40,16 @@ doc_nav:
       children:
         - title: "The Architecture"
           url: /architecture/
-        - title: "Gettting Started"
+        - title: "Gettting Started Guides"
           url: /gs_overview/
+        - title: "Building IoTivity on Windows"
+          url: /build_windows/
+        - title: "Building IoTivity on Linux"
+          url: /build_linux/
+        - title: "Building IoTivity on Android"
+          url: /build_android/
+        - title: "Building IoTivity for Java"
+          url: /build_java/
           
 
  
