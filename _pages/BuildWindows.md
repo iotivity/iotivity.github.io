@@ -7,10 +7,6 @@ layout: single
 sidebar:
   nav: "doc_nav"
 
-toc: false
-toc_label: "Table of Contents"
-toc_icon: "cog"
-toc_sticky : true
 ---
 
 A Visual Studio project file can be found in port/windows/vs2015/IoTivity-Lite.sln. Open the solution file in Visual Studio 2015 or newer. 

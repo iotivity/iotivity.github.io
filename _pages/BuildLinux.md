@@ -7,10 +7,6 @@ layout: single
 sidebar:
   nav: "doc_nav"
 
-toc: false
-toc_label: "Table of Contents"
-toc_icon: "cog"
-toc_sticky : true
 ---
 
 he Linux build is fully specified in <iotivity-root>port/linux/Makefile. 
