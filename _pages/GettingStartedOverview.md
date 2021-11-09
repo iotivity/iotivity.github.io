@@ -5,7 +5,7 @@ overview: true
 permalink: /gs_overview/
 
 sidebar:
-  nav: "gso_nav"
+  nav: "gs_nav"
 
 toc: true
 toc_label: Table of Contents

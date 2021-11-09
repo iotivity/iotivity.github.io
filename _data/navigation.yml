@@ -33,3 +33,15 @@ gs_nav:
         - title: "Gettting Started: FAQ"
           url: /gs_faq/
           
+          
+          
+doc_nav:
+    - title: More Information
+      children:
+        - title: "The Architecture"
+          url: /architecture/
+        - title: "Gettting Started"
+          url: /gs_overview/
+          
+
+ 

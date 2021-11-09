@@ -1,11 +1,11 @@
 ---
 permalink: /SIPD/
-title: "Getting Involved"
+title: "OCF Secure IP Device Framework"
 overview: false
 layout: single
 
 sidebar:
-  nav: "SIPD_nav"
+  nav: "doc_nav"
 
 toc: true
 toc_label: "Table of Contents"
