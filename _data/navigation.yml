@@ -48,7 +48,7 @@ doc_nav:
           url: /build_linux/
         - title: "Building IoTivity on Android"
           url: /build_android/
-        - title: "Building IoTivity for Java"
+        - title: "Building IoTivity with Java Bindings"
           url: /build_java/
           
 
