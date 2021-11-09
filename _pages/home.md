@@ -20,15 +20,15 @@ feature_row:
   - #image_path: /assets/images/mm-responsive-feature.png
     alt: "Getting Started"
     title: "Getting Started"
-    excerpt: "Getting Started guides."
-    url: "/sdflanguage/"
+    excerpt: "Getting Started with the IoTivity code base."
+    url: "/gs_overview/"
     btn_class: "btn--primary"
     btn_label: "Learn more"
   - #image_path: /assets/images/mm-free-feature.png
     alt: "OCF Secure IP Device Framework"
     title: "OCF Secure IP Device Framework"
-    excerpt: "OCF Secure IP Device Framework."
-    url: "/SIPD_nav/"
+    excerpt: "OCF Secure IP Device Framework. What is it, what will it do for you"
+    url: "/SIPD/"
     btn_class: "btn--primary"
     btn_label: "Learn more"      
 

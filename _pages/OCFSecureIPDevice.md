@@ -1,5 +1,5 @@
 ---
-permalink: /gettinginvolved/
+permalink: /SIPD/
 title: "Getting Involved"
 overview: false
 layout: single
