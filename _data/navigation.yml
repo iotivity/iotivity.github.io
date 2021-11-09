@@ -19,5 +19,15 @@ about_nav:
       children:
         - title: "About"
           url: /about/
-
+          
+          
+gs_nav:
+    - title: More Information
+      children:
+        - title: "Getting Started: Device Simulation"
+          url: /GS_DS/
+        - title: "Gettting Started: Raspberry Pi Kit"
+          url: /GS_Rasp/
+        - title: "Gettting Started: Digging Deeper"
+          url: /gs_diggingdeeper/
           
