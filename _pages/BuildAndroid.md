@@ -33,9 +33,9 @@ sudo apt-get install git make openjdk-8-jdk swig
 Download the Android SDK command line tools
 Run the sdkmanager found in the tools/bin directory to install the platform-tools and Android platform:
 
-``
+```
 ./sdkmanager "platform-tools" "platforms;android-23"
-``
+```
 
 Download the Android NDK and run the standalone toolchain
 ``
@@ -53,9 +53,9 @@ Valid values for are --arch
 The make_standalone_toolchain script only supports api level 16 and newer. We recommend using api level 23 or newer.
 
 For example:
-``
+```
 ./make_standalone_toolchain.py --arch arm --api 23 --install-dir ~/android-arm-23
-``
+```
 Note: running make_standalone_toolchain.py may print a WARNING stating that it is no longer necessary. 
 This is expected. However, at this time the make files expect the stand alone tool chain.
  
@@ -68,15 +68,15 @@ Install Android Studio (optional)
 The build must be run from <iotivity-root>/port/android/.
 
 The Makefile uses the Android NDK that was installed above. You may either set ANDROID_API and ANDROID_BASE in the Makefile, or invoke make as follows:
-``
+```
 make NDK_HOME=/opt/android-ndk ANDROID_API=23
-``
+```
 You would pass additional options to make as described in the Linux build instructions.
 
 For e.g.:
-``
+```
 make NDK_HOME=~/android-arm-23 ANDROID_API=23 IPV4=1 DEBUG=1
-``
+```
 A successful build would copy the library files (*.so and *.jar) into directories containing the Android sample apps.
 
 When developing your own project, you would need to manually copy the libraries from <iotivity-root>/swig/iotivity-lite-java/libs to the appropriate location in your project's directory structure.
@@ -93,42 +93,42 @@ A sample server and client can be found in <iotivity-root>/swig/apps/<sample>/.
 You must use gradlew to build the Android application package (apk). 
 Note that gradlew will require a local.properties to exist or ANDROID_HOME to be defined. 
 An installation of Android Studio should create the local.properties file.
-``
+```
 export ANDROID_HOME=~/Android/sdk
-``
+```
 To resolve any proxy issues, please refer to gradle user guide.
 
 The server sample is located in android_simple_server/SimpleServer. To build and install the sample execute the following command:
 
 Method 1
-``
+```
 ./gradlew installDebug
-``
+```
 Method 2
-``
+```
 ./gradlew assembleDebug
-``
+```
 To install the APK:
-``
+```
 cd app/build/outputs/apk
 adb install app-armeabi-debug.apk
-``
+```
 The client sample is located in android_simple_client/SimpleClient. To build and install the sample execute the following command:
 
 Method 1
-``
+```
 ./gradlew installDebug
-``
+```
 Method 2
 
-``
+```
 ./gradlew assembleDebug
-``
+```
 To install the APK:
-``
+```
 cd app/build/outputs/apk
 adb install app-armeabi-debug.apk
-``
+```
 
 ## Building your own Android Applications
 
@@ -138,7 +138,7 @@ Also, in building these examples, the native code libraries were copied to speci
 
 A project's directory structure is as follows:
 
-``
+```
 	project/
 	|   +-- libs/
 		|   +-- iotivity-lite.jar
@@ -151,11 +151,11 @@ A project's directory structure is as follows:
 						|   +-- libiotivity-lite-jni.so.so
 					|   +-- x86-64/
 						|   +-- libiotivity-lite-jni.so.so
-``
+```
 
 This structure is reflected in the application's build.gradle file:
 
-``
+```
    android {
         .
         .
@@ -181,10 +181,10 @@ This structure is reflected in the application's build.gradle file:
         .
         .
     }
-``
+```
 
 Lastly, appropriate permissions have to be granted in the AndroidManifest.xml file.
-``
+```
     <manifest ...="">
  
         <uses-permission android:name="android.permission.INTERNET">
@@ -196,4 +196,4 @@ Lastly, appropriate permissions have to be granted in the AndroidManifest.xml fi
  
         <application .="" application="">
     </application></uses-permission></uses-permission></uses-permission></uses-permission></uses-permission></uses-permission></manifest>
-``
+```
