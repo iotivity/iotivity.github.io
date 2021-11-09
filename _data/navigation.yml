@@ -1,0 +1,45 @@
+main:
+  - title: "Overview"
+    url: /overview/
+  - title: "SDF"
+    url: /sdflanguage/
+    children:
+      - title: "Terminology"
+        url: /terminology/
+  - title: "FAQ"
+    url: /faq/
+  - title: "About"
+    url: /about/
+
+sdf_nav:
+    - title: More Information
+      children:
+        - title: "SDF language"
+          url: https://onedm.org/SDF/sdf.html
+        - title: "Terminology"
+          url: /terminology/
+        - title: "Examples in playground"
+          url: https://github.com/one-data-model/playground
+        - title: "Tools"
+          url: https://github.com/one-data-model/tools
+        - title: "SDF Conversion"
+          url: /conversion/
+
+about_nav:
+    - title: More Information
+      children:
+        - title: "About"
+          url: /about/
+        - title: "Endorsing and Contributing organizations"
+          url: /endorse/
+        - title: "Contribute Models"
+          url: /contribute/
+          
+          
+faq_nav:
+    - title: More Information
+      children:
+        - title: "FAQ"
+          url: /faq/
+        - title: "Bibliography"
+          url: /bib/
