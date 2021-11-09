@@ -1,6 +1,6 @@
 ---
 permalink: /GS_DS/
-title: Bibliography
+title: Getting Started with Device Simulation
 overview: false
 layout: single
 
