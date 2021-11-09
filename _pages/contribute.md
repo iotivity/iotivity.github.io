@@ -27,4 +27,4 @@ Submit patches or review submissions by others
 
 File bugs or document feature requests
 Subscribe to the mailing lists
-Follow along with the blog, [Twitter](https://twitter.com/IoTivity), and Facebook
+Follow along with the blog, [Twitter](https://twitter.com/IoTivity), and [Facebook](https://www.facebook.com/iotivity)
