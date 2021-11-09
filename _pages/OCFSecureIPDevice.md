@@ -27,7 +27,7 @@ The OCF Secure IP Device Framework is compliant with most of the known security 
 
 IoT means interacting with the physical world, hence the physical device is important. This is also the most costly part to develop.
 
-The Core Framework therefore is focusing on the code that is needed on the physical device. e.g. it covers:
+The OCF Secure IP Device Framework therefore is focusing on the code that is needed on the physical device. e.g. it covers:
 
 Device 2 Device communication
 Device 2 Cloud communication
@@ -57,8 +57,16 @@ The OCF Secure IP Device Framework stack is designed:
 
 ## Security aspects of the OCF Secure IP Device Framework
 
-The OCF Secure IP Device Framework can handle payloads based on CoAP securely. Each Device will be onboarded into a secure domain. Only devices onboarded in the secure domain are allowed to talk to each other. On top of the secure domain, access controls are defined. The access control mechanisms are based per resource (URL) and Methods that are allowed on the resource. This gives a granular control of who is allowed to interact with which part of the functionality on the device. For example a guest is allowed to read the current temperature of the thermostat but not allowed to change the set point of the thermostat.
+The OCF Secure IP Device Framework can handle payloads based on CoAP securely. 
+Each Device will be onboarded into a secure domain. 
+Only devices onboarded in the secure domain are allowed to talk to each other. On top of the secure domain, access controls are defined. 
+The access control mechanisms are based per resource (URL) and Methods that are allowed on the resource. 
+This gives a granular control of who is allowed to interact with which part of the functionality on the device. 
+For example a guest is allowed to read the current temperature of the thermostat but not allowed to change the set point of the thermostat.
 
-Another aspect of security is the adherence to external security requirements. OCF has investigated the external requirements against the OCF security specification.
+Another aspect of security is the adherence to external security requirements. 
+OCF has investigated the external requirements against the OCF security specification.
 
 The result of this comparison is captured below.
+
+TODO
