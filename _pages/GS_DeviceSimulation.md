@@ -13,18 +13,20 @@ toc_icon: cog
 toc_sticky : true
 ---
 
-## Relevant info
-
-Introduction
+## Introduction
 This guide will show you how to download, build, and run two simulated devices on the same Linux PC:
 
-The server, a command-line app, simulates a smart home device such as a smart switch.
-The client, a GUI app, controls the smart device. While this example uses a Linux client application, the client typically runs on a smart phone.
+* The server, a command-line app, simulates a smart home device such as a smart switch.
+* The client, a GUI app, controls the smart device. While this example uses a Linux client application, the client typically runs on a smart phone.
+
 The two apps talk to each other over a loopback connection, using the OCF protocol.
 
-OCF protocol over loopback connection
 
-Requirements
+![OCF protocol over loopback connection](../assets/images/ocfprotocol-loopback-connection.png "The configuration")
+
+
+## Requirements
+
 To carry out this tutorial, you will need the following:
 
 A Debian-based Linux PC (e.g., Ubuntu), with an internet connection.
@@ -39,6 +41,7 @@ Generate code for the server app by running these commands:
 
 cd ~/iot-lite/
 ./gen.sh
+
 This script runs the DeviceBuilder app with a default JSON configuration file that can be edited to specify the capabilities of your actual device.
 
 Build and run the server app by running these commands:
@@ -48,8 +51,10 @@ Build and run the server app by running these commands:
 ./run.sh
 The server device is now running. Leave this terminal window open. The server app is waiting for commands from the client app, which you’ll install next.
 
-Build and Run the Client App
-The sample client application is called OTGC (Onboarding Tool and Generic Client). Build the Linux version by executing the script as described below:
+##Build and Run the Client App
+
+The sample client application is called OTGC (Onboarding Tool and Generic Client). 
+Build the Linux version by executing the script as described below:
 
 On the development PC, open another terminal window.
 Download and build the Linux OTGC client by running this command, which takes several minutes to complete:
@@ -96,7 +101,9 @@ Click to reselect the device in the left-hand pane. In the Generic Client tab, t
 toggle value switch
 When you are done controlling the switch, click the offboard button to relinquish your ownership and return the security state to Ready For Onboarding Transfer Method (RFOTM)
 Quit the client app and then press Ctrl-C in the server terminal to stop the server device.
-Customize the Code
+
+## Customize the Code
+
 IoTivity provides a tool for automatically generating server code as a significant head start for your software development. The code generation tool works from a JSON file created by you that describes the capabilities of your device. The server code you compiled and ran in this tutorial began from the file named example.json, found in the ~/iot-lite/ directory on your development PC.
 
 The steps below will show you how to make a simple change to the JSON file, recompile, and run the server and client. You can then see how the changes you made to the server’s capabilities in the JSON file are reflected in the client app.
