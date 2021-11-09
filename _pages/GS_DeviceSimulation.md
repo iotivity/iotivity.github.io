@@ -95,24 +95,28 @@ Build the Linux version by executing the script as described below:
 
   * Click to select the device listed in the left-hand pane, and click the Onboard button.
 
-    select device and onboard
+    ![select device and onboard](../assets/images/onboard-button.png "select device and onboard")
 
     The Select OTM (Ownership Transfer Method) dialog box pops up. Any of the available security methods should work.
 
   * OK the Selected OTM in the dialog box.
 
-  select PKI for the most rigorous security OTM
-  As device ownership is transferred, the Select OTM dialog box closes and is replaced by the Set Device Name dialog box.
+   
+    ![select PKI for the most rigorous security OTM](../assets/images/set-device-name.png "select PKI for the most rigorous security OTM")
+ 
+  
+    As device ownership is transferred, the Select OTM dialog box closes and is replaced by the Set Device Name dialog box.
 
-  Change the device name, if you wish. Click OK to close the dialog box.
+    Change the device name, if you wish. Click OK to close the dialog box.
 
-  In this example, the device name is shown as server_lite_3173.
+    In this example, the device name is shown as server_lite_3173.
 
-  The bar to the left of the device will turn green indicating that the device is now owned by your copy of OTGC.
+    The bar to the left of the device will turn green indicating that the device is now owned by your copy of OTGC.
 
   * Click to reselect the device in the left-hand pane. In the Generic Client tab, toggle the Value switch on and off. You should see the monitor window for the server device indicating true and false as you change the state of the switch.
 
-toggle value switch
+  ![toggle value switch](../assets/images/toggle-switch.png "toggle value switch")
+
 6. When you are done controlling the switch, click the offboard button to relinquish your ownership and return the security state to Ready For Onboarding Transfer Method (RFOTM)
 
 7. Quit the client app and then press Ctrl-C in the server terminal to stop the server device.
