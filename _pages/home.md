@@ -8,15 +8,12 @@ header:
   #actions:
   #  - label: "<i class='fas fa-download'></i> Install now"
   #    url: "/docs/quick-start-guide/"
-excerpt: <small> Each IoT standards organization,
-  and many IoT platform vendors, have created their own version of an IoT data model framework, each with a bespoke meta-model and representation language.<br/> 
-  To start alignment of existing data models, the models should be described in the same format. 
-  Hence, the Semantic Definition Format (SDF) has been created. SDF and related tools and frameworks can manage the contribution of data models from diverse sources, and collection of these data models in a single place.<br/>
+excerpt: <small> IoTivity is an open source software framework enabling seamless device-to-device connectivity to address the emerging needs of the Internet of Things<br/>
 feature_row:
   - #image_path: /assets/images/mm-customizable-feature.png
-    alt: "OneDM overview"
-    title: "OneDM overview"
-    excerpt: "OneDM overview. An overview of the history and initial results of OneDM."
+    alt: "architecture"
+    title: " architecture"
+    excerpt: "The architecture of IoTivity."
     url: "/overview/"
     btn_class: "btn--primary"
     btn_label: "Learn more"

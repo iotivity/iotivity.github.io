@@ -13,12 +13,12 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: One Data Model  
+title: IoTivity  
 title_separator          : "-"
-subtitle                 : "Solving the problem of lack of a common data model for IoT and IoT devices"
+subtitle                 : "IoTivity is an open source software framework enabling seamless device-to-device connectivity to address the emerging needs of the Internet of Things"
 
 
-logo: /assets/images/onedm.png
+logo: /assets/images/logo.png
 #email: iotivity-dev@lists.iotivity.org
 description: >- # this means to ignore newlines until "baseurl:"
   One Data Model 
