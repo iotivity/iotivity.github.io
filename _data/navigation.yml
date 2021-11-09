@@ -7,7 +7,7 @@ main:
       - title: "Contribute"
         url: /contribute/
   - title: "Getting Started"
-    url: /faq/
+    url: /gs_overview/
   - title: "About"
     url: /about/
     children:
