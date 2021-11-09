@@ -30,4 +30,6 @@ gs_nav:
           url: /GS_Rasp/
         - title: "Gettting Started: Digging Deeper"
           url: /gs_diggingdeeper/
+        - title: "Gettting Started: FAQ"
+          url: /gs_faq/
           
