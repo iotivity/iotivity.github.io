@@ -64,7 +64,7 @@ footer:
       icon: "fab fa-fw fa-twitter"
       url: "https://twitter.com/IoTivity"
     - label: "facebook"
-      icon: "fab fa-fw fa-facebookd"
+      icon: "fab fa-fw fa-facebook"
       url: "https://www.facebook.com/iotivity"
 
 
