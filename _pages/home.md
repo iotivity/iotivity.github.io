@@ -10,20 +10,6 @@ header:
   #    url: "/docs/quick-start-guide/"
 excerpt: <small> IoTivity is an open source software framework implementing OCF.<br/>
 feature_row:
-  - #image_path: /assets/images/mm-customizable-feature.png
-    alt: "Documentation"
-    title: "Documentation"
-    excerpt: "The Documentation of IoTivity."
-    url: "/documentation/"
-    btn_class: "btn--primary"
-    btn_label: "Learn more"
-  - #image_path: /assets/images/mm-responsive-feature.png
-    alt: "Getting Started"
-    title: "Getting Started"
-    excerpt: "Getting Started with the IoTivity code base."
-    url: "/getting-started/"
-    btn_class: "btn--primary"
-    btn_label: "Learn more"
   - #image_path: /assets/images/mm-free-feature.png
     alt: "OCF Secure IP Device Framework"
     title: "OCF Secure IP Device Framework"
@@ -31,6 +17,20 @@ feature_row:
     url: "/SIPD/"
     btn_class: "btn--primary"
     btn_label: "Learn more"      
+  - #image_path: /assets/images/mm-responsive-feature.png
+    alt: "Getting Started"
+    title: "Getting Started"
+    excerpt: "Getting Started with the IoTivity code base."
+    url: "/getting-started/"
+    btn_class: "btn--primary"
+    btn_label: "Learn more"
+  - #image_path: /assets/images/mm-customizable-feature.png
+    alt: "Documentation"
+    title: "Documentation"
+    excerpt: "The Documentation of IoTivity."
+    url: "/documentation/"
+    btn_class: "btn--primary"
+    btn_label: "Learn more"
 
 ---
 
