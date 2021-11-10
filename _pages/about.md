@@ -27,7 +27,6 @@ The IoTivity project is sponsored by the Open Connectivity Foundation (OCF), a g
 
 The IoTivity project delivers a reference implementation of the OCF standard specifications. The OCF specifications are ISO/IEC recognized international standards.
 
-
 ## Licence
 
 The IoTivity code base is released under "Apache 2.0" license.
