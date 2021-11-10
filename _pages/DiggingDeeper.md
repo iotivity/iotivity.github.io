@@ -5,7 +5,7 @@ overview: true
 permalink: /gs_diggingdeeper/
 
 sidebar:
-  nav: "gso_nav"
+  nav: "gs_nav"
 
 toc: true
 toc_label: Table of Contents
@@ -24,4 +24,3 @@ Create a whole separate test project (create configuration file, generate device
 [Development workflow reference](https://openconnectivity.github.io/IOTivity-Lite-setup/)
 
  Folder structure, recommended development flow and description of core scripts.
- 
