@@ -20,6 +20,7 @@ SWIG is not a stub generator. It produces code that can be compiled and used. Th
 Since the Java binding is just a thin layer on top of IoTivity's C APIs, any programs developed using Java are expected to be as stable as the underlying C stack.
 
 To use this code you will need the following:
+
 - git version control system
 - SWIG installed on your local system (version 3.0 recommended)
 - Java Development kit.
@@ -36,11 +37,11 @@ git, swig, Java Development kit, make, and C compiler
 
 sudo apt-get install git swig build-essential openjdk-8-jdk make
 Build Java language bindings
-Navigate to <iotivity-root>/port/linux
+Navigate to ``<iotivity-root>/port/linux``
 
 make IPV4=1 DEBUG=1 JAVA=1 IDD=1
 Building and Running Samples
-A sample server and client can be found in <iotivity-root>/swig/apps/<sample>
+A sample server and client can be found in ``<iotivity-root>/swig/apps/<sample>``
 
 The server sample is in java_lite_simple_server. To build and run the sample execute the following commands.
 
@@ -59,23 +60,23 @@ The Onboarding tool sample is in java_onboarding_tool. To build and run the onbo
 
 Install the build tools
 
-* Git
-* SWIG
-* Java Development Kit (JDK) AdoptOpenJDK or Oracle Java 8 JDK
-* Visual Studio
+- Git
+- SWIG
+- Java Development Kit (JDK) AdoptOpenJDK or Oracle Java 8 JDK
+- Visual Studio
 
-Visual Studio 2015 was used for Windows development with IoTivity. 
+Visual Studio 2015 was used for Windows development with IoTivity.
 The Visual Studio solution files are known to work on newer versions of Visual Studio.
 
-Set the JAVA_HOME environment variable to point to the Java Development kit. 
+Set the JAVA_HOME environment variable to point to the Java Development kit.
 This is required so the build can locate jni.h.
 
 ## Build Java language bindings
 
-To build the IoTivity JNI shared library, navigate to <iotivity-root>/port/windows/vs2015 and open the Visual Studio solution IoTivity-lite-Java.sln file in Visual Studio.
+To build the IoTivity JNI shared library, navigate to ``<iotivity-root>/port/windows/vs2015`` and open the Visual Studio solution IoTivity-lite-Java.sln file in Visual Studio.
 
-Select the desired build options: Release/Debug, x86/x64. 
-Note that the architecture must match that of the Java VM installed on the system. In the Solution Explorer right click on the iotivity-lite-jni project. 
+Select the desired build options: Release/Debug, x86/x64.
+Note that the architecture must match that of the Java VM installed on the system. In the Solution Explorer right click on the iotivity-lite-jni project.
 Select the Build option.
 
 This will build
@@ -85,46 +86,54 @@ This will build
 
 On success, the Output window shows the following:
 
+```text
 ========== Build: 3 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+```
 
-Build iotivity-lite.jar file from <iotivity-root>/swig/java_lang run:
+Build iotivity-lite.jar file from ``<iotivity-root>/swig/java_lang`` run:
 
+```bash
 sh build-iotivity-lite.sh
+```
+
 The Java build has not been integrated with the Visual Studio solution. Hence, we must run the build-iotivity-lite.sh script following the execution of build on Visual Studio.
 
 ## Building and Running Samples
 
-A sample server and client can be found in <iotivity-root>/swig/apps/<sample>.
+A sample server and client can be found in ``<iotivity-root>/swig/apps/<sample>``.
 
 The server sample is java_lite_simple_server. To build and run the sample execute the following commands:
 
-``
+```bash
 sh build-simple-server-lite.sh
 run-simple-server-lite.cmd
-``
+```
+
 The client sample is in java_lite_simple_client. To build and run the sample execute the following commands:
-``
+
+```bash
 sh build-simple-client-lite.sh
 run-simple-client-lite.cmd
-``
+```
 
 The Onboarding tool sample is in java_onboarding_tool. To build and run the onboarding tool execute the following commands:
-``
+
+```bash
 sh build-onboarding-tool-lite.sh
 run-onboarding-tool-lite.cmd
-``
+```
 
 ## Windows build issues
 
-The Visual Studio build does properly catch changes in the swig interface files, (i.e. *.i and *.swg files found in the swig/swig_interfaces directory) if any of these are updated. The Rebuild option must be used to build the output or the swig output will not be updated or sh build_swig.sh may be run from the <iotivity-root>/swig/java_lang directory and then run Build.
+The Visual Studio build does properly catch changes in the swig interface files, (i.e. *.i and *.swg files found in the swig/swig_interfaces directory) if any of these are updated. The Rebuild option must be used to build the output or the swig output will not be updated or sh build_swig.sh may be run from the ``<iotivity-root>/swig/java_lang`` directory and then run Build.
 
-Visual Studio does not clean the *.java output files even on a clean or rebuild. The files may be manually deleted from the <iotivity-root>/swig/iotivity-lite-java/src/org directory or sh build_swig.sh can be run from the <iotivity-root>/swig/java_lang directory.
+Visual Studio does not clean the *.java output files even on a clean or rebuild. The files may be manually deleted from the ``<iotivity-root>/swig/iotivity-lite-java/src/org`` directory or sh build_swig.sh can be run from the ``<iotivity-root>/swig/java_lang`` directory.
 
 ## swig directory layout
 
 This provides is an overview of the <iotivity-root>/swig directory with a summary of the contents of each sub-directory.
 
-``
+```text
 	swig
 	|    +-- apps
 	|    |    +-- android_simple_client
@@ -142,7 +151,7 @@ This provides is an overview of the <iotivity-root>/swig directory with a summar
 	|    |    +-- oc
 	|    +-- swig_interfaces
 	- apps
-``
+```
 
 Contains multiple samples. The java_lite samples have been tested on Windows and Linux. The android samples are the same samples with a really light UI for Android OS. The java_onboarding_tool is a bear bones tool for onboarding and provisioning samples that have been built with security.
 
@@ -172,9 +181,12 @@ sh --version
 ``
 example of expected output
 
+``
 GNU bash, version 4.4.12(2)-release (x86_64-pc-msys)
 Copyright (C) 2016 Free Software Foundation, Inc.
 License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+``
+
 git
 ``
 git --version
