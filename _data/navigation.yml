@@ -7,7 +7,7 @@ main:
       - title: "Contribute"
         url: /contribute/
   - title: "Getting Started"
-    url: /gs_overview/
+    url: /getting-started/
   - title: "About"
     url: /about/
     children:
@@ -41,7 +41,7 @@ doc_nav:
         - title: "The Architecture"
           url: /architecture/
         - title: "Gettting Started Guides"
-          url: /gs_overview/
+          url: /getting-started/
         - title: "Building IoTivity on Windows"
           url: /build_windows/
         - title: "Building IoTivity on Linux"

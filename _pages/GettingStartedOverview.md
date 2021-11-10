@@ -2,7 +2,7 @@
 layout: single
 title: Getting Started
 overview: true
-permalink: /gs_overview/
+permalink: /getting-started/
 
 sidebar:
   nav: "gs_nav"
@@ -19,19 +19,19 @@ Follow through these guides to quickly get productive with IoTivity.
 
 ### The Getting started guide for Device Simulation.
 
-Bring up a simulated OCF Server and control it with an OCF Client.
+Bring up a [simulated OCF Server](/GS_DS) and control it with an OCF Client a.
 No Specific hardware needed to get an understanding what OCF can do.
 
 
 ### The Getting started guide for Raspberry Pi
 
-Control components connected to a Raspberry Pi board with an OCF Client
+Control components connected to an [OCF Server running on a Raspberry Pi](/GS_Rasp) board with an OCF Client
 
 
 ### Digging Deeper
 
-Next Steps for Development.
+[Next Steps](/gs_diggingdeeper) for Development.
 
 ### Getting Started FAQ
 
-FAQs related to the Getting Started Guides
+[FAQs](/gs_faq) related to the Getting Started Guides
