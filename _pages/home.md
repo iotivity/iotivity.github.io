@@ -8,7 +8,7 @@ header:
   #actions:
   #  - label: "<i class='fas fa-download'></i> Install now"
   #    url: "/docs/quick-start-guide/"
-excerpt: <small> IoTivity is an open source software framework implementing OCF.<br/>
+excerpt: <small> IoTivity is an open source software framework enabling seamless device-to-device connectivity to address the emerging needs of the Internet of Things. IoTivity is an open source software framework implementing OCF.<br/>
 feature_row:
   - #image_path: /assets/images/mm-free-feature.png
     alt: "OCF Secure IP Device Framework"
@@ -20,14 +20,14 @@ feature_row:
   - #image_path: /assets/images/mm-responsive-feature.png
     alt: "Getting Started"
     title: "Getting Started"
-    excerpt: "Getting Started with the IoTivity code base."
+    excerpt: "A quick step-by-step guide to get started with IoTivity today."
     url: "/getting-started/"
     btn_class: "btn--primary"
     btn_label: "Learn more"
   - #image_path: /assets/images/mm-customizable-feature.png
     alt: "Documentation"
     title: "Documentation"
-    excerpt: "The Documentation of IoTivity."
+    excerpt: "Find API documentation, build instructions and other resources to aid in developing with or contributing to IoTivity."
     url: "/documentation/"
     btn_class: "btn--primary"
     btn_label: "Learn more"
