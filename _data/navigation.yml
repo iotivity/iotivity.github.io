@@ -29,6 +29,8 @@ gs_nav:
           url: /GS_DS/
         - title: "Gettting Started: Raspberry Pi Kit"
           url: /GS_Rasp/
+       - title: "Gettting Started: using docker"
+          url: /gs_docker/
         - title: "Gettting Started: Digging Deeper"
           url: /gs_diggingdeeper/
         - title: "Gettting Started: FAQ"
