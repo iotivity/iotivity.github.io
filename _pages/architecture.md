@@ -30,11 +30,15 @@ Please review the following resources for more details:
 
 The IoTivity project offers device vendors and application developers royalty-free access to [OCF technologies](https://openconnectivity.org/developer/specifications/) under the Apache 2.0 license.
 
-![IoTivity stack features](/assets/images/iotivitylitearchitecture_2)
+## IoTivity stack Features
 
-OS agnostic: The IoTivity device stack and modules work cross-platform (pure C code) and execute in an event-driven style. The stack interacts with lower level OS/hardware platform-specific functionality through a set of abstract interfaces. This decoupling of the common OCF standards related functionality from platform adaptation code promotes ease of long-term maintenance and evolution of the stack through successive releases of the OCF specifications.
+![IoTivity stack features](/assets/images/iotivitylitearchitecture_2.png)
 
-* Porting layer: The platform abstraction is a set of generically defined interfaces which elicit a specific contract from implementations. 
+* OS agnostic: The IoTivity device stack and modules work cross-platform (pure C code) and execute in an event-driven style.
+  The stack interacts with lower level OS/hardware platform-specific functionality through a set of abstract interfaces. This decoupling of the common OCF standards related functionality from platform adaptation code promotes ease of long-term maintenance and evolution of the stack through successive releases of the OCF specifications.
+  ![IoTivity porting layer](/assets/images/iotivityliteport.png)
+
+* Porting layer: The platform abstraction is a set of generically defined interfaces which elicit a specific contract from implementations.
   The stack utilizes these interfaces to interact with the underlying OS/platform. The simplicity and boundedness of these interface definitions allow them to be rapidly implemented on any chosen OS/target. Such an implementation constitutes a "port".
 * Optional support for static memory: On minimal environments lacking heap allocation functions, the stack may be configured to statically allocate all internal structures by setting a number of build-time parameters, which by consequence constrain the allowable workload for an application.
 * C and Java APIs: The API structure and naming closely aligns with OCF specification constructs, aiding ease of understanding.
