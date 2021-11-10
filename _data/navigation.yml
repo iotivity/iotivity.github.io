@@ -1,13 +1,15 @@
 main:
   - title: "Home"
-    url: /home/
+    url: /
+  - title: "Secure IP Device Framework"
+    url: /SIPD/
+  - title: "Getting Started"
+    url: /getting-started/
   - title: "Documentation"
     url: /documentation/
     children:
       - title: "Contribute"
         url: /contribute/
-  - title: "Getting Started"
-    url: /getting-started/
   - title: "About"
     url: /about/
     children:
