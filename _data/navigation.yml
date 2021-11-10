@@ -30,6 +30,8 @@ gs_nav:
           url: /GS_Rasp/
         - title: "Gettting Started: Digging Deeper"
           url: /gs_diggingdeeper/
+        - title: "Tools"
+          url: /tools/
         - title: "Gettting Started: FAQ"
           url: /gs_faq/
           
@@ -50,6 +52,10 @@ doc_nav:
           url: /build_android/
         - title: "Building IoTivity with Java Bindings"
           url: /build_java/
+        - title: "Tools"
+          url: /tools/
+        - title: "DeviceBuilder"
+          url: /DeviceBuilder/
           
 
  
