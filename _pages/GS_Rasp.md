@@ -41,10 +41,10 @@ To carry out this tutorial, you will need the following:
 ## Set up the Raspberry Pi
 
 1. Before connecting power, attach the Explorer HAT board to the GPIO header on the Raspberry Pi. 
-  Be careful not to bend the pins, as the connector fits very tightly. (For this example, you don’t need the blue breadboard, which may be attached later.)
+   Be careful not to bend the pins, as the connector fits very tightly. (For this example, you don’t need the blue breadboard, which may be attached later.)
 
   
-  ![board](../assets/images/attach-HAT-plus-blue-board.png "The Pi-HAT board")
+   ![board](../assets/images/attach-HAT-plus-blue-board.png "The Pi-HAT board")
 
 
 2. Insert the micro SD card with an updated version of Raspian already installed into its slot, located under the Pi board.
@@ -63,17 +63,17 @@ As an alternative, attach a monitor and USB keyboard directly to the Raspberry P
    ```
     ![ping Pi](../assets/images/ping-pi-local.png)
 
-  In the screen above, the IP address is 192.168.0.30. 
-  Sometimes the ping command doesn't reach raspberrypi.local due to DNS issues. 
-  An alternative is to connect a keyboard and monitor to the Pi and run the ifconfig command in the terminal.
+   In the screen above, the IP address is 192.168.0.30. 
+   Sometimes the ping command doesn't reach raspberrypi.local due to DNS issues. 
+   An alternative is to connect a keyboard and monitor to the Pi and run the ifconfig command in the terminal.
 
 3. Connect to the Pi via SSH, using either of these commands:
 
-  For Linux or macOS, use either of these commands:
+   For Linux or macOS, use either of these commands:
    ```
    ssh pi@raspberrypi.local #replace with current hostname if changed, OR...
    ```
-​  OR
+​   OR
    ```
    ssh pi@ipaddress #use IP address from previous step
    ```
@@ -111,7 +111,7 @@ As an alternative, attach a monitor and USB keyboard directly to the Raspberry P
 1. Continuing on your development PC, from the SSH prompt, go to the home directory and install the IoTivity-lite development system, which takes several minutes to complete:
    ```
    cd ~
-  curl https://openconnectivity.github.io/IOTivity-Lite-setup/install.sh | bash
+   curl https://openconnectivity.github.io/IOTivity-Lite-setup/install.sh | bash
    ```
    Alternatively, you can download the install.sh script, review and run it from anywhere.
 
@@ -135,8 +135,8 @@ As an alternative, attach a monitor and USB keyboard directly to the Raspberry P
 4. On the Pi, create a project directory:
    ```
    cd ~
-  mkdir workspace
-  cd workspace
+   mkdir workspace
+   cd workspace
    ```
 5. Create the IoTivity project (we'll call it myexample):
 
@@ -187,7 +187,7 @@ The sample client application is called OTGC (Onboarding Tool and Generic Client
 1. On the development PC, open another terminal window.
 2. Download and build the Linux OTGC client by running this command, which takes several minutes to complete:
    ```
-curl https://openconnectivity.github.io/otgc-linux/setup.sh | bash
+   curl https://openconnectivity.github.io/otgc-linux/setup.sh | bash
    ```
    Troubleshooting: If the build process finishes but an error occurs, manually run the dpkg command from the setup.sh script.
    ```
