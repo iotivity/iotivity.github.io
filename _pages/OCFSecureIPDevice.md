@@ -73,4 +73,4 @@ OCF has investigated the external requirements against the OCF security specific
 
 The result of this comparison is captured below.
 
-<iframe src="https://openconnectivityfoundation.github.io/OCF-Security-Baseline-Mapping/docs/index.html" style="width:135%;height:550px;display:block;margin-left:auto;margin-right:auto;"></iframe>
+<iframe src="https://openconnectivityfoundation.github.io/OCF-Security-Baseline-Mapping/docs/index.html" style="width:135%;height:650px;display:block;margin-left:auto;margin-right:auto;"></iframe>
