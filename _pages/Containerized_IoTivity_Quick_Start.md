@@ -137,7 +137,7 @@ At this point, you should see some minimal output from the `simpleserver` and
 `simpleclient` logs, and the OBT's main menu should appear on screen. An example
 of what this might look like appears below.
 
-![Example output of the commands above.](./dockerized_iotivity_images/compose_up.png)
+![Example output of the commands above.](/assets/images/compose_up.png)
 
 From here, the OBT can be used to discover, onboard, and configure the
 `simpleserver` and `simpleclient` Devices.
@@ -197,7 +197,7 @@ The following steps can be used to perform this provisioning:
 The screenshot below illustrates what setting the 5 ACE permissions might look
 like.
 
-![Example of provisioning ACE to Device.](./dockerized_iotivity_images/ace_permissions.png)
+![Example of provisioning ACE to Device.](/assets/images/ace_permissions.png)
 
 ### Device Interoperation
 
@@ -215,7 +215,7 @@ to update the state of the Lamp Device and observe its state changes!
 
 The image below displays what this output might look like.
 
-![Example of output from `simpleserver` and `simpleclient` interacting.](./dockerized_iotivity_images/restart_simpleclient.png)
+![Example of output from `simpleserver` and `simpleclient` interacting.](/assets/images//restart_simpleclient.png)
 
 ## Running Manually
 
@@ -293,7 +293,7 @@ created in the working directory. This directory includes generated source code
 that can be compiled with IoTivity-Lite, as well as schema files. An example of
 the structure of this output directory appears below.
 
-![Example `output` directory after invoking the `ocfadmin/devicebuilder` image.](./dockerized_iotivity_images/devicebuilder_output.png)
+![Example `output` directory after invoking the `ocfadmin/devicebuilder` image.](/assets/images//devicebuilder_output.png)
 
 # IoTivity-Builder Image
 
