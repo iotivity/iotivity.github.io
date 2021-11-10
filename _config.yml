@@ -66,7 +66,9 @@ footer:
     - label: "facebook"
       icon: "fab fa-fw fa-facebook-square"
       url: "https://www.facebook.com/iotivity"
-
+    - label: "doxygen"
+      icon: "/assets/images/doxygen.png"
+      url: "https://iotivity.github.io/iotivity-lite-doxygen/"
 
 defaults:
   # _pages
