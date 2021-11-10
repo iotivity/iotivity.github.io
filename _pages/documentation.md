@@ -14,5 +14,7 @@ toc_sticky : true
 ---
 ## Introduction
 
-This [page](https://iotivity.github.io/iotivity-lite-doxygen/) links to API documentation, build instructions and other resources to aid in developing with or contributing to IoTivity.
+This [page](https://iotivity.github.io/iotivity-lite-doxygen/) links to API documentation.
+
+build instructions and other resources to aid in developing with or contributing to IoTivity.
 

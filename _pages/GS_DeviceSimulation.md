@@ -175,14 +175,16 @@ The steps below will show you how to make a simple change to the JSON file, reco
   * Click to select the device and click the Onboard button.
   * Select PKI and OK in OTM dialog box.
   * Change the device name, if you wish, and click OK to close the Set Device Name dialog box.
-  * Click to reselect the device. In the Generic Client tab, toggle the Value switch on and off. 
+  * Click to reselect the device. In the Generic Client tab, toggle the Value switch on and off.
     You can also now enter a dimming value in the text box for the new dimming control. Hit Tab to change the value on the server. You should see the new   value in the server window.
   * Offboard the server by selecting it and clicking on the offboard button.
   * Quit the client app and then press Ctrl-C in the server terminal to exit the process.
 
 ## Run on Separate Devices
 
-Now that you’ve run a quick simulation on your own development PC and experienced the basic flow, you can get a better picture of IoTivity capabilities by running it on a Raspberry Pi board, where you can control and read its status from the same OTGC Linux application or you can download and run OTGC on an Android phone or tablet.
+Now that you’ve run a quick simulation on your own development PC and experienced the basic flow, 
+you can get a better picture of IoTivity capabilities by running it on a Raspberry Pi board, 
+where you can control and read its status from the same OTGC Linux application or you can download and run OTGC on an Android phone or tablet.
 
-Visit the next Getting Started guide using a Raspberry Pi Kit.
+Visit the next [Getting Started guide using a Raspberry Pi Kit](/GS_Rasp).
 
