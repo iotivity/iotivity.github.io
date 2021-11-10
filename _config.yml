@@ -69,7 +69,7 @@ footer:
     - label: "doxygen"
       icon: "/assets/images/favicon.ico"
       url: "https://iotivity.github.io/iotivity-lite-doxygen/"
-    - label: "linked in(OCF)"
+    - label: "linked in (OCF)"
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/company/open-connectivity-foundation"
 
