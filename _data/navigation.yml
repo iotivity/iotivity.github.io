@@ -22,7 +22,6 @@ about_nav:
         - title: "About"
           url: /about/
           
-          
 gs_nav:
     - title: More Information
       children:
@@ -32,12 +31,10 @@ gs_nav:
           url: /GS_Rasp/
         - title: "Gettting Started: Digging Deeper"
           url: /gs_diggingdeeper/
-        - title: "Tools"
-          url: /tools/
         - title: "Gettting Started: FAQ"
           url: /gs_faq/
-          
-          
+        - title: "Tools"
+          url: /tools/
           
 doc_nav:
     - title: More Information
