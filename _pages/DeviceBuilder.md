@@ -76,5 +76,3 @@ Explanation about the scripts:
 These scripts are for convenience only. The scripts work well to generate application code for a headless system without a GUI; For e.g. a Raspberry Pi board.
 
 Please check [here](https://openconnectivity.github.io/IOTivity-Lite-setup/#development-flow) for more information.
-
-Please check here for more information.
