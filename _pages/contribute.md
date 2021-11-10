@@ -25,6 +25,5 @@ Submit patches or review submissions by others
 
 * [Wiki](https://github.com/iotivity/iotivity-lite/wiki)
 
-File bugs or document feature requests
-Subscribe to the mailing lists
-Follow along with the blog, [Twitter](https://twitter.com/IoTivity), and [Facebook](https://www.facebook.com/iotivity)
+[File bugs or document feature requests](https://github.com/iotivity/iotivity-lite/issues)
+Follow along with [Twitter](https://twitter.com/IoTivity), and [Facebook](https://www.facebook.com/iotivity)

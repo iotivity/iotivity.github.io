@@ -19,7 +19,7 @@ The infrastructure that enables secure IP communication of the vertical defined 
 
 ## What does it solve
 
-The OCF Secure IP Device Framework enables vertical agnostic secure IP communication by means of a standardized framework. The open source implementation of theOCF Secure IP Device Framework is IoTivity, which is compliant to the OCF standards and is a verified implementation by means of the OCF certification program.
+The OCF Secure IP Device Framework enables vertical agnostic secure IP communication by means of a standardized framework. The open source implementation of the OCF Secure IP Device Framework is IoTivity, which is compliant to the OCF standards and is a verified implementation by means of the OCF certification program.
 
 The OCF Secure IP Device Framework is compliant with most of the known security requirements documents.
 
@@ -37,7 +37,6 @@ This is is same communication that IoTivity is covering.
 The full communication mechanisms are depicted in the image below.
 
 ![communication mechanisms](../assets/images/picture1-1.png "communication mechanisms")
-
 
 ## OCF Secure IP Device Framework on the (Embedded) device
 

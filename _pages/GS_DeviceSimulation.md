@@ -21,9 +21,7 @@ This guide will show you how to download, build, and run two simulated devices o
 
 The two apps talk to each other over a loopback connection, using the OCF protocol.
 
-
 ![OCF protocol over loopback connection](../assets/images/ocfprotocol-loopback-connection.png "The configuration")
-
 
 ## Requirements
 
@@ -35,13 +33,16 @@ To carry out this tutorial, you will need the following:
 
 1. On the development PC, open a terminal.
 2. Download source and set up the IoTivity-Lite environment by running this command, which takes several minutes to complete:
-   ```
+
+   ```bash
    curl https://openconnectivity.github.io/IOTivity-Lite-setup/install.sh | bash
    ```
+
    Alternatively, you can download the install.sh script, review and run it from any location.
 
 3. Generate code for the server app by running these commands:
-   ```
+
+   ```bash
    cd ~/iot-lite/
    ./gen.sh
    ```
@@ -49,11 +50,13 @@ To carry out this tutorial, you will need the following:
    This script runs the DeviceBuilder app with a default JSON configuration file that can be edited to specify the capabilities of your actual device.
 
 4. Build and run the server app by running these commands:
-   ```
+
+   ```bash
    ./build.sh
    ./reset.sh
    ./run.sh
    ```
+
    The server device is now running. Leave this terminal window open. The server app is waiting for commands from the client app, which you’ll install next.
 
 ## Build and Run the Client App
@@ -63,12 +66,14 @@ Build the Linux version by executing the script as described below:
 
 1. On the development PC, open another terminal window.
 2. Download and build the Linux OTGC client by running this command, which takes several minutes to complete:
-   ```
+
+   ```bash
    curl https://iotivity.github.io/otgc-linux/setup.sh | bash
    ```
+
    Troubleshooting: If the build process completes, but an error occurs, manually run the dpkg command from the setup.sh script.
-   
-   ```
+
+   ```bash
    sudo dpkg -i ./otgc-linux/build/debian/out/otgc-3.0.0.deb
    #run only in the event of an error and substitute the version of otgc
    #that is available at this location (for example, the version number will
@@ -76,10 +81,13 @@ Build the Linux version by executing the script as described below:
 
    Note: Executing this command installs a Java enviroment.
    ```
+
 3. Launch the Linux OTGC client by running this command:
-   ```
+
+   ```bash
    /usr/bin/otgc.sh
    ```
+
    ![/usr/bin/otgc.sh](../assets/images/usr-bin-otgc.sh.png "The command to start otgc")
 
 4. Click to OK to accept the End User License Agreement.
@@ -99,21 +107,22 @@ Build the Linux version by executing the script as described below:
 
      The Select OTM (Ownership Transfer Method) dialog box pops up. Any of the available security methods should work.
 
-  * OK the Selected OTM in the dialog box.
+   * OK the Selected OTM in the dialog box.
 
-    ![select PKI for the most rigorous security OTM](../assets/images/set-device-name.png "select PKI for the most rigorous security OTM")
+     ![select PKI for the most rigorous security OTM](../assets/images/set-device-name.png "select PKI for the most rigorous security OTM")
   
-    As device ownership is transferred, the Select OTM dialog box closes and is replaced by the Set Device Name dialog box.
+     As device ownership is transferred, the Select OTM dialog box closes and is replaced by the Set Device Name dialog box.
 
-    Change the device name, if you wish. Click OK to close the dialog box.
+     Change the device name, if you wish. Click OK to close the dialog box.
 
-    In this example, the device name is shown as server_lite_3173.
+     In this example, the device name is shown as server_lite_3173.
 
-    The bar to the left of the device will turn green indicating that the device is now owned by your copy of OTGC.
+     The bar to the left of the device will turn green indicating that the device is now owned by your copy of OTGC.
 
-  * Click to reselect the device in the left-hand pane. In the Generic Client tab, toggle the Value switch on and off. You should see the monitor window for the server device indicating true and false as you change the state of the switch.
+   * Click to reselect the device in the left-hand pane.
+     In the Generic Client tab, toggle the Value switch on and off. You should see the monitor window for the server device indicating true and false as you change the state of the switch.
 
-  ![toggle value switch](../assets/images/toggle-switch.png "toggle value switch")
+     ![toggle value switch](../assets/images/toggle-switch.png "toggle value switch")
 
 6. When you are done controlling the switch, click the offboard button to relinquish your ownership and return the security state to Ready For Onboarding Transfer Method (RFOTM)
 
@@ -126,14 +135,16 @@ IoTivity provides a tool for automatically generating server code as a significa
 The steps below will show you how to make a simple change to the JSON file, recompile, and run the server and client. You can then see how the changes you made to the server’s capabilities in the JSON file are reflected in the client app.
 
 1. On your development PC, back up the example.json file:
-   ```
+
+   ```bash
    cd ~/iot-lite/
    cp example.json example.json.bak
    ```
 
 2. Open the example.json file in your preferred editor. This can be easily done with the ./edit_input.sh script or you can open the example.json file with your favorite text editor.
 3. Add a dimming resource as indicated below. The example.json file will now have two resources: binary switch and dimming. The other resource is for the device platform and will not be displayed in the client application.
-   ```
+
+   ```text
    [
      {
        "path" : "/binaryswitch",
@@ -155,19 +166,24 @@ The steps below will show you how to make a simple change to the JSON file, reco
      }
    ]
    ```
+
    Save your changes.
 
 4. While still in the ~/iot-lite/ directory, generate the server code, build, and run:
-   ```
+
+   ```bash
    ./gen.sh
    ./build.sh
    ./reset.sh
    ./run.sh
    ```
+
 5. Run the client app:
-   ```
+   
+   ```bash
    /usr/bin/otgc.sh
    ```
+
 6. As you observed in Step 5 of the **Install and Run the Client App** section above, notice how the console output in the server terminal responds to actions taken in the client app:
 
    * Click to select the device and click the Onboard button.
@@ -185,4 +201,3 @@ you can get a better picture of IoTivity capabilities by running it on a Raspber
 where you can control and read its status from the same OTGC Linux application or you can download and run OTGC on an Android phone or tablet.
 
 Visit the next [Getting Started guide using a Raspberry Pi Kit](/GS_Rasp).
-

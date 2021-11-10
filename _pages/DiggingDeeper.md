@@ -14,6 +14,7 @@ toc_sticky : true
 ---
 
 ## Next Steps for Development
+
 To learn more about developing IoT devices with IoTivity, read the following:
 
 [Development workflow tutorial](https://openconnectivity.github.io/IOTivity-Lite-setup/#development-flow)
@@ -23,3 +24,4 @@ Create a whole separate test project (create configuration file, generate device
 [Development workflow reference](https://openconnectivity.github.io/IOTivity-Lite-setup/)
 
  Folder structure, recommended development flow and description of core scripts.
+ 

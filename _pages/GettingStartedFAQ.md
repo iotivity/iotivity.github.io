@@ -42,4 +42,5 @@ If you're having issues getting started with IoTivity, these common questions an
 
 Still no luck?
 
-Ask your question on the IoTivity-dev email reflector.
+Take a look at the [Wiki](https://github.com/iotivity/iotivity-lite/wiki)
+Ask your question on [IoTivity](https://github.com/iotivity/iotivity-lite/issues)

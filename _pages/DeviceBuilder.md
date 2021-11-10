@@ -21,15 +21,16 @@ IoTivity has all OCF Secure IP Device Framework components built into the stack,
 
 The Device Builder tool chain is available to assist with the creation of IoTivity application code that defines the vertical resources.
 
-The typical layering of the application is described in the following image. 
-
+The typical layering of the application is described in the following image.
 
 ![Stack layer](/assets/images/lite-stack.png)
 
 ## Device Builder Tool Chain
+
 The setup of development chain can be found [here](https://openconnectivity.github.io/IOTivity-Lite-setup/).
 
 ## Vertical Resources
+
 The application that contains the vertical resources (e.g. the function of the device) can be generated.
 
 The input for the vertical resources are in Open API specifications, a widely used API specification format to design APIs.
@@ -51,7 +52,6 @@ The development chain comprises of a setup of the tool chain and also a local co
 
 The tool chain is depicted in the following image:
 
-
 ![Tool Chain](/assets/images/toolchain.png)
 
 All components will be set up with a single command. Follow the instructions here.
@@ -61,6 +61,7 @@ The following folder structure after installation will be available:
 ![folder structure](/assets/images/folderlayout.png)
 
 ## Development Flow
+
 The development flow is based on bash scripts, hence the flow is generalized for Linux based systems. The development flow is depicted the figure below:
 
 ![development process](/assets/images/dev-process.png)

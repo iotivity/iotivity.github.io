@@ -22,11 +22,9 @@ Follow through these guides to quickly get productive with IoTivity.
 Bring up a [simulated OCF Server](/GS_DS) and control it with an OCF Client a.
 No Specific hardware needed to get an understanding what OCF can do.
 
-
 ### The Getting started guide for Raspberry Pi
 
 Control components connected to an [OCF Server running on a Raspberry Pi](/GS_Rasp) board with an OCF Client
-
 
 ### Digging Deeper
 

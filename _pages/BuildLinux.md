@@ -9,8 +9,8 @@ sidebar:
 
 ---
 
-he Linux build is fully specified in <iotivity-root>port/linux/Makefile. 
-A successful build produces IoTivity static and dynamic libraries and sample applications which are all stored under <iotivity-root>port/linux/.
+he Linux build is fully specified in ``<iotivity-root>port/linux/Makefile``.
+A successful build produces IoTivity static and dynamic libraries and sample applications which are all stored under ``<iotivity-root>port/linux/``.
 
 * Run make for a release build without any debug output.
 
@@ -26,6 +26,6 @@ A successful build produces IoTivity static and dynamic libraries and sample app
 
 * Add SECURE=0 to exclude the OCF security layer and mbedTLS. The security layer is compiled in by default and must be excluded only for testing purposes.
 
-The build-time framework configuration that enables various conditionally compiled stack features is defined in <iotivity-root>port/linux/oc_config.h.
+The build-time framework configuration that enables various conditionally compiled stack features is defined in ``<iotivity-root>port/linux/oc_config.h``.
 
 Instructions for compiling the Java bindings can be found [here](/build_java).
