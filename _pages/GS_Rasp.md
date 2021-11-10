@@ -66,17 +66,17 @@ As an alternative, attach a monitor and USB keyboard directly to the Raspberry P
    An alternative is to connect a keyboard and monitor to the Pi and run the ifconfig command in the terminal.
 
 3. Connect to the Pi via SSH, using either of these commands:
-   For Linux or macOS, use either of these commands:
+    For Linux or macOS, use either of these commands:
 
-   ```bash
-   ssh pi@raspberrypi.local #replace with current hostname if changed, OR...
-   ```
+    ```bash
+    ssh pi@raspberrypi.local #replace with current hostname if changed, OR...
+    ```
 
-​   OR
+     OR
 
-   ```bash
-   ssh pi@ipaddress #use IP address from previous step
-   ```
+    ```bash
+    ssh pi@ipaddress #use IP address from previous step
+     ```
 
 4. Supply the password when prompted. Default login:
 
