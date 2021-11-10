@@ -4,11 +4,11 @@ permalink: /
 hidden: true
 header:
   overlay_color: "#5e616c"
-  overlay_image: /assets/images/mm-home-page-feature.jpg
+  #overlay_image: /assets/images/mm-home-page-feature.jpg
   #actions:
   #  - label: "<i class='fas fa-download'></i> Install now"
   #    url: "/docs/quick-start-guide/"
-excerpt: <small> IoTivity is an open source software framework enabling seamless device-to-device connectivity to address the emerging needs of the Internet of Things<br/>
+excerpt: <small> IoTivity is an open source software framework implementing OCF.<br/>
 feature_row:
   - #image_path: /assets/images/mm-customizable-feature.png
     alt: "Documentation"
