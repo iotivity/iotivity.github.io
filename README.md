@@ -1,2 +1,4 @@
 # iotivity.github.io
-website
+website:
+
+https://iotivity.github.io/
