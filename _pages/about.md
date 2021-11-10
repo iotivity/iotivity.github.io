@@ -15,7 +15,7 @@ toc_sticky : true
 
 ## Introduction
 
-IoTivity is an open source framework that implements the Open Connectivity Foundation (OCF) standards providing easy and secure communications for IoT devices.
+IoTivity is an open source framework that implements the [Open Connectivity Foundation](http://www.openconnectivity.org/) (OCF) standards providing easy and secure communications for IoT devices.
 
 Each day more and more devices are coming online, adding to the ever-growing Internet of Things (IoT). Analysts agree that the IoT will grow to many billions of devices over the next decade.
 
@@ -25,7 +25,8 @@ The IoTivity project was created to bring together the open-source community to 
 
 The IoTivity project is sponsored by the Open Connectivity Foundation (OCF), a group of industry leaders that have created a standard specification and certification program to address these challenges.
 
-The IoTivity project delivers a reference implementation of the OCF standard specifications. The OCF specifications are ISO/IEC recognized international standards.
+The IoTivity project delivers a reference implementation of the [OCF standard specifications](https://openconnectivity.org/developer/specifications/). 
+The OCF specifications are [ISO/IEC](https://www.iso.org/standard/53238.html) recognized international standards.
 
 ## Licence
 
