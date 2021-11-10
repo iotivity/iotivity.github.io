@@ -13,6 +13,7 @@ toc_icon: cog
 toc_sticky : true
 ---
 
+## Introduction
 
 IoTivity is an open source framework that implements the Open Connectivity Foundation (OCF) standards providing easy and secure communications for IoT devices.
 
@@ -27,4 +28,8 @@ The IoTivity project is sponsored by the Open Connectivity Foundation (OCF), a g
 The IoTivity project delivers a reference implementation of the OCF standard specifications. The OCF specifications are ISO/IEC recognized international standards.
 
 
+## Licence
 
+The IoTivity code base is released under "Apache 2.0" license.
+This means that everyone can use the code "as is".
+For more details see the [license](https://github.com/iotivity/iotivity-lite/blob/master/LICENSE.md)
