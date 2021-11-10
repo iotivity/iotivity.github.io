@@ -13,11 +13,10 @@ toc_icon: "cog"
 toc_sticky : true
 ---
 
-This page links to IoTivity developer tools and sample applications.
 
-## OCF Device Spy
+## Introduction
 
-### Introduction
+his page links to IoTivity developer tools and sample applications.
 
 The Open Connectivity Foundation (OCF) develops international standards for the Internet of Things (IoT).
 OCF is distinguished by its unprecedented interoperability, state-of-the-art security, and certification program.
@@ -27,6 +26,8 @@ devices to be developed in minutes.
 One of the tools OCF has produced is an closed source onboarding tool and generic client, called OCF Device Spy and OTGC.
 Most IoT devices are servers in the IoT client-server model (lights, locks, meters, etc.).
 Getting information from these servers and controlling them requires the use of a client.
+
+## OCF Device Spy
 
 ### Onboarding Tool
 
@@ -55,7 +56,7 @@ Device Spy is currently only available for Windows and can be downloaded [here](
 One of the tools OCF has produced is an open source onboarding tool and generic client.
 Most IoT devices are servers in the IoT client-server model (lights, locks, meters, etc.). Getting information from these servers and controlling them requires the use of a client.
 
-### Onboarding Tool
+### Onboarding Tool (OTGC)
 
 OTGC is such a client. Before any server can be queried or controlled, a secure connection must be established between the client and the server. 
 This process is called onboarding. 
@@ -67,7 +68,7 @@ OTGC is a client that has passed OCF certification and implements all of the typ
 With PKI security it chains back to a secure root of trust from authorized security vendors. To be clear, OCF implements security as strong as what you use with your bank or to make online purchases. 
 Once OTGC establishes a secure connection with a server device, nobody else can get access to that device unless the original instance of OTGC explicitly gives the new client permission.
 
-### Generic Client
+### Generic Client (OTGC)
 
 Once you finish onboarding and have a secure connection between OTGC and the OCF server you want to control, it automatically creates a user interface to that server device.
 For example, if the server implements a normal on/off light, OTGC will create an on/off switch you can use to control that light.
