@@ -21,6 +21,8 @@ about_nav:
       children:
         - title: "About"
           url: /about/
+        - title: "Contribute"
+          url: /contribute/
           
 gs_nav:
     - title: More Information
