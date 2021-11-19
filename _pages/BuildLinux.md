@@ -9,7 +9,7 @@ sidebar:
 
 ---
 
-he Linux build is fully specified in ``<iotivity-root>port/linux/Makefile``.
+The Linux build is fully specified in ``<iotivity-root>port/linux/Makefile``.
 A successful build produces IoTivity static and dynamic libraries and sample applications which are all stored under ``<iotivity-root>port/linux/``.
 
 * Run make for a release build without any debug output.

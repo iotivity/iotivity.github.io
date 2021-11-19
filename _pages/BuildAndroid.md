@@ -13,6 +13,8 @@ toc_icon: "cog"
 toc_sticky : true
 ---
 
+## prerequisits 
+
 To get started, you will need the following:
 
 * git version control system
@@ -24,12 +26,15 @@ To get started, you will need the following:
 
 The following instructions describe how to obtain and run the Android developer tools on Linux.
 
-Install Dependencies
+## Install Dependencies
 These may be brought by installing the following packages on Ubuntu Linux:
 
+```bash
 sudo apt-get install git make openjdk-8-jdk swig
+```
  
-Download the Android SDK command line tools
+## Download the Android SDK command line tools
+
 Run the sdkmanager found in the tools/bin directory to install the platform-tools and Android platform:
 
 ```bash
@@ -61,9 +66,9 @@ For example:
 Note: running make_standalone_toolchain.py may print a WARNING stating that it is no longer necessary. 
 This is expected. However, at this time the make files expect the stand alone tool chain.
 
-Install Android Studio (optional)
+## Install Android Studio (optional)
 
-## Compile IoTivity
+### Compile IoTivity
 
 The build must be run from <iotivity-root>/port/android/.
 
