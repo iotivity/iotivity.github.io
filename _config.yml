@@ -17,7 +17,7 @@ title: IoTivity
 title_separator          : "-"
 subtitle                 : "Open source for IoT"
 
-
+repository: iotivity/iotivity.github.io
 logo: /assets/images/logo.png
 #email: iotivity-dev@lists.iotivity.org
 description: >- # this means to ignore newlines until "baseurl:"
