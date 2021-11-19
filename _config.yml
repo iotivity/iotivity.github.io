@@ -22,8 +22,10 @@ logo: /assets/images/logo.png
 #email: iotivity-dev@lists.iotivity.org
 description: >- # this means to ignore newlines until "baseurl:"
  IoTivity is an open source software framework enabling seamless device-to-device connectivity to address the emerging needs of the Internet of Things
-  
-  
+
+# Google Analytics
+google_analytics: G-4195LTB1EJ
+
 #twitter_username: username
 #github_username: one-data-model
 minimal_mistakes_skin: default
