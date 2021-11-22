@@ -74,13 +74,13 @@ The Onboarding tool sample is in java_onboarding_tool. To build and run the onbo
 
 Install the build tools
 
-- Git
-- SWIG
-- Java Development Kit (JDK) AdoptOpenJDK or Oracle Java 8 JDK
-- Visual Studio
+- [Git](https://git-scm.com/download/win)
+- [SWIG](http://swig.org/download.html)
+- Java Development Kit (JDK) [AdoptOpenJDK](https://adoptopenjdk.net/installation.html) or [Oracle Java 8 JDK](https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
+- [Visual Studio](https://visualstudio.microsoft.com/)
 
 Visual Studio 2015 was used for Windows development with IoTivity.
-The Visual Studio solution files are known to work on newer versions of Visual Studio.
+The Visual Studio solution files will work with newer versions of Visual Studio.
 
 Set the JAVA_HOME environment variable to point to the Java Development kit.
 This is required so the build can locate jni.h.
