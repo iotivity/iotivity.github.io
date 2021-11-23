@@ -13,7 +13,7 @@ toc_icon: cog
 toc_sticky : true
 ---
 
-# Getting Started with OCF and Thread
+# Introduction
 The purpose of this document is to provide the reader with all the required knowledge and steps to create and run new or pre-existing OCF applications over Thread, 
 using the OCF and Thread certified Cascoda SDK and the Chili2 modules.
 
@@ -49,7 +49,7 @@ because all the necessary binaries can be downloaded from [here](https://github.
 
 ## Step 3 - Creating OCF Applications over Thread
 - Read through [this guide](https://cascoda.github.io/cascoda-sdk-pages/docs/guides/create-custom-ocf-applications) in the Cascoda SDK, which explains how to create custom OCF applications, import them into the Cascoda SDK, and make the necessary changes to interface with hardware, such as sensors.
-- Have a look at this README file [here](https://cascoda.github.io/cascoda-sdk-pages/docs/ocf/README) for a list of all the existing OCF applications currently available in the Cascoda SDK, which have been generated in the exact same way as was described in the previous bullet point.
+- Have a look at this README file [here](https://cascoda.github.io/cascoda-sdk-pages/#ocf-targets) for a list of all the existing OCF applications currently available in the Cascoda SDK, which have been generated in the exact same way as was described in the previous bullet point.
 
 ## Step 4 - Thread Network Set-Up and Configuration
 The OCF applications mentioned in [Step 3](#step-3---creating-ocf-applications-over-thread) run over Thread, which is a low-power wireless protocol based on IPv6. For that reason, some setting up and configuration will be necessary in order to get the Thread network running and get the Chili module to join that network. The following points will guide you through this process.

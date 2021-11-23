@@ -33,6 +33,8 @@ gs_nav:
           url: /GS_Rasp/
         - title: "Gettting Started: using docker"
           url: /gs_docker/
+        - title: "Gettting Started: OCF over Thread"
+          url: /gs_docker/
         - title: "Gettting Started: Digging Deeper"
           url: /gs_diggingdeeper/
         - title: "Gettting Started: FAQ"
