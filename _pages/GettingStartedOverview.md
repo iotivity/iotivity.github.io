@@ -31,7 +31,7 @@ This guide requires to have a Raspberry Pi.
 
 ### The Getting started with Docker
 
-Getting started with [containerized Iotivity](gs_docker) using [docker](https://www.docker.com/).
+Getting started with [containerized Iotivity](/gs_docker) using [docker](https://www.docker.com/).
 Docker instances that can:
 * run a device.
 * build a device using Device Builder

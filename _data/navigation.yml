@@ -31,10 +31,10 @@ gs_nav:
           url: /GS_DS/
         - title: "Gettting Started: Raspberry Pi Kit"
           url: /GS_Rasp/
-        - title: "Gettting Started: using docker"
+        - title: "Gettting Started: containerized IoTivity"
           url: /gs_docker/
         - title: "Gettting Started: OCF over Thread"
-          url: /gs_docker/
+          url: /GS_OCF_over_Thread/
         - title: "Gettting Started: Digging Deeper"
           url: /gs_diggingdeeper/
         - title: "Gettting Started: FAQ"
