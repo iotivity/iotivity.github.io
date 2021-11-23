@@ -8,21 +8,21 @@ main:
   - title: "Documentation"
     url: /documentation/
     children:
-      - title: "Contribute"
-        url: /contribute/
+      - title: "Get Involved"
+        url: /get-involved/
   - title: "About"
     url: /about/
     children:
-      - title: "Contribute"
-        url: /contribute/
+      - title: "Get Involved"
+        url: /get-involved/
 
 about_nav:
     - title: More Information
       children:
         - title: "About"
           url: /about/
-        - title: "Contribute"
-          url: /contribute/
+        - title: "Get Involved"
+          url: /get-involved/
           
 gs_nav:
     - title: More Information

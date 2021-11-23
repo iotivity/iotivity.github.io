@@ -1,8 +1,8 @@
 ---
 layout: single
-title: Contribute to IoTivivy
+title: Get Involved
 overview: true
-permalink: /contribute/
+permalink: /get-involved/
 
 sidebar:
   nav: "about_nav"
