@@ -59,11 +59,11 @@ The OCF applications mentioned in [Step 3](#step-3---creating-ocf-applications-o
     - A micro USB to USB cable - This makes it possible to connect the module to a PC.
     - A Cascoda Border Router - This will form a Thread network, and provide a way for OCF Device Spy to communicate to the OCF server. [Here](https://cascoda.github.io/cascoda-sdk-pages/docs/guides/border-router-setup) is a guide on how to set up a Border Router and form a Thread network.
     
-<p align="center"><img src="imgs/hardware-min.jpg" width="600"></p>
+<p align="center"><img src="https://cascoda.github.io/cascoda-sdk-pages/docs/how-to/imgs/hardware-min.jpg" width="600"></p>
 
 - Flash the Chili 2D module (guide [here](https://cascoda.github.io/cascoda-sdk-pages/docs/guides/flashing) with the OCF application that you want to run.
 - Power the module, which you can do by simply connecting it to your Windows PC using the USB cable.
-- Commission the Chili 2D module onto the Thread network formed by the border router. A guide on how to do this is found [here](../guides/thread-commissioning.md).
+- Commission the Chili 2D module onto the Thread network formed by the border router. A guide on how to do this is found [here](https://cascoda.github.io/cascoda-sdk-pages/docs/guides/thread-commissioning).
 - Check that the module has successfully joined the Thread network by running [ocfctl](https://github.com/Cascoda/cascoda-sdk/blob/master/posix/app/ocfctl/README.md) while the module is connected to the PC with the USB cable. To download `ocfctl` for Windows, go to the [latest release](https://github.com/Cascoda/cascoda-sdk/releases/latest) of the Cascoda SDK, and download the `Windows-SDK.zip` file, which contains `ocfctl`.
 - After running `ocfctl`, you should get something that looks similar to the picture below:
 
