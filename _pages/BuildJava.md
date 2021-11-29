@@ -35,38 +35,52 @@ Currently SWIG version 3.0 is recommended. Users are welcome to use a newer vers
 Install the build tools
 git, swig, Java Development kit, make, and C compiler
 
+```bash
 sudo apt-get install git swig build-essential openjdk-8-jdk make
+```
+
 Build Java language bindings
 Navigate to ``<iotivity-root>/port/linux``
 
+```bash
 make IPV4=1 DEBUG=1 JAVA=1 IDD=1
+```
+
 Building and Running Samples
 A sample server and client can be found in ``<iotivity-root>/swig/apps/<sample>``
 
 The server sample is in java_lite_simple_server. To build and run the sample execute the following commands.
 
+```bash
 ./build-simple-server-lite.sh
 ./run-simple-server-lite.sh
+```
+
 The client sample is in java_lite_simple_client. To build and run the sample execute the following commands.
 
+```bash
 ./build-simple-client-lite.sh
 ./run-simple-client-lite.sh
+```
+
 The Onboarding tool sample is in java_onboarding_tool. To build and run the onboarding tool execute the following commands.
 
+```bash
 ./build-onboarding-tool-lite.sh
 ./run-onboarding-tool-lite.sh
+```
 
 ## Windows Build Instructions
 
 Install the build tools
 
-- Git
-- SWIG
-- Java Development Kit (JDK) AdoptOpenJDK or Oracle Java 8 JDK
-- Visual Studio
+- [Git](https://git-scm.com/download/win)
+- [SWIG](http://swig.org/download.html)
+- Java Development Kit (JDK) [AdoptOpenJDK](https://adoptopenjdk.net/installation.html) or [Oracle Java 8 JDK](https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
+- [Visual Studio](https://visualstudio.microsoft.com/)
 
 Visual Studio 2015 was used for Windows development with IoTivity.
-The Visual Studio solution files are known to work on newer versions of Visual Studio.
+The Visual Studio solution files will work with newer versions of Visual Studio.
 
 Set the JAVA_HOME environment variable to point to the Java Development kit.
 This is required so the build can locate jni.h.
@@ -175,62 +189,85 @@ Contains the input files for the swig builder. These files contain instructions 
 
 If issues are encountered when trying to build the code, you may verify the versions of the installed tools. The scripts assume that all the needed tools are in the system PATH and are accessible without knowing the location of the tool.
 
-bash shell (windows only) this should be installed with git
-``
+### bash shell (windows only) this should be installed with git
+
+```
 sh --version
-``
+```
+
 example of expected output
 
-``
+```
 GNU bash, version 4.4.12(2)-release (x86_64-pc-msys)
 Copyright (C) 2016 Free Software Foundation, Inc.
 License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
-``
+```
 
-git
-``
+### git
+
+```
 git --version
-``
+```
+
 example of expected output (newest version recommended)
-``
+
+```
 git version 2.20.1
-``
-SWIG
-``
+```
+
+### SWIG
+
+```
 swig -version
-``
+```
+
 example of expected output (version 3.0 currently recommended)
-``
+
+```
 SWIG Version 3.0.12
 Compiled with g++ [x86_64-redhat-linux-gnu]
 Configured options: +pcre
 Please see http://www.swig.org for reporting bugs and further information
-``
+```
 
-Java
-``
+### Java
+
+```
 java -version
-``
+```
+
 example of expected output
-``
+
+```
 openjdk version "1.8.0_191"
 OpenJDK RuntimeEnvironment (build 1.8.0_191-b12)
 OprnJDK 64-bit Server VM (build 25.191-b12, mixed mode)
-`` 
+
 javac 1.8.0_191
-Check JAVA_HOME environment variable
+```
 
-``
+### Check JAVA_HOME environment variable
+
+#### on windows
+
+```
 echo %JAVA_HOME%
-``
-example of expected output
-``
-C:\Program Files\AdoptOpenJDK\jdk-8.0.202.08
-``
-(Linux)
+```
 
-echo $JAVA_HOME
 example of expected output
-``
+
+```
+C:\Program Files\AdoptOpenJDK\jdk-8.0.202.08
+```
+
+#### on Linux
+
+```
+echo $JAVA_HOME
+```
+
+example of expected output
+
+```
 /usr/lib/jvm/java-1.8.0/
-``
+```

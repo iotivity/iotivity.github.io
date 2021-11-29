@@ -8,19 +8,21 @@ main:
   - title: "Documentation"
     url: /documentation/
     children:
-      - title: "Contribute"
-        url: /contribute/
+      - title: "Get Involved"
+        url: /get-involved/
   - title: "About"
     url: /about/
     children:
-      - title: "Contribute"
-        url: /contribute/
+      - title: "Get Involved"
+        url: /get-involved/
 
 about_nav:
     - title: More Information
       children:
         - title: "About"
           url: /about/
+        - title: "Get Involved"
+          url: /get-involved/
           
 gs_nav:
     - title: More Information
@@ -29,8 +31,10 @@ gs_nav:
           url: /GS_DS/
         - title: "Gettting Started: Raspberry Pi Kit"
           url: /GS_Rasp/
-        - title: "Gettting Started: using docker"
+        - title: "Gettting Started: containerized IoTivity"
           url: /gs_docker/
+        - title: "Gettting Started: OCF over Thread"
+          url: /GS_OCF_over_Thread/
         - title: "Gettting Started: Digging Deeper"
           url: /gs_diggingdeeper/
         - title: "Gettting Started: FAQ"
