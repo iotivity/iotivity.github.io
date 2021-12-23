@@ -17,7 +17,7 @@ toc_sticky : true
 IoTivity is an open-source, reference implementation of the OCF Secure IP Device Framework.
 
 The OCF Secure IP Device Framework provides a versatile communications layer with best-in-class security for Device-to-Device (D2D) and Device-to-Cloud (D2C) connectivity over [IP](https://en.wikipedia.org/wiki/Internet_Protocol).
-IoT interoperability is achieved through the use of consensus-derived, industry standard [data models](https://openconnectivity.org/developer/oneiota-data-model-tool/) spanning an array of usage verticals.
+IoT interoperability is achieved through the use of consensus-derived, industry standard [data models](https://github.com/openconnectivityfoundation/IoTDataModels) spanning an array of usage verticals.
 The OCF Secure IP Device Framework may be harnessed alongside other IoT technologies in a synergistic fashion to lend a comprehensive and robust IoT solution.
 
 Please review the following resources for more details:
