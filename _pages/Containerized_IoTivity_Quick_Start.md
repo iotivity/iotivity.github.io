@@ -237,7 +237,7 @@ docker run --name=obt -i -t ocfadmin/iotivity-examples onboarding_tool
 
 # DeviceBuilder Image
 
-The OCF [DeviceBuilder](https://iotivity.org/tools/device-builder) tool can be
+The OCF [DeviceBuilder](/DeviceBuilder) tool can be
 used to generate stubs of IoTivity-Lite application code. The
 `ocfadmin/devicebuilder` image enables the use of this tool without the need to
 install and configure it. Refer to the DeviceBuilder documentation for details
