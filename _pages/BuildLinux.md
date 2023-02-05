@@ -71,6 +71,28 @@ A successful build produces IoTivity static and dynamic libraries and sample app
 
 The build-time framework configuration that enables various conditionally compiled stack features is defined in ``<iotivity-root>port/linux/oc_config.h``.
 
+### Building tinyCBOR as a shared library
+
+To encode and decode CBOR data [tinyCBOR library](https://github.com/intel/tinycbor)  is used. The library itself currently doesn't support building with CMake, so we use our custom CMake file. By default tinyCBOR is compiled as a static library and linked with the IoTivity libraries. It is possible to link IoTivity libraries dynamically with the tinyCBOR library. To do so, use the following build option:
+
+* Add `-DUSE_STATIC_TINYCBOR_LIBRARY=ON` to build tinyCBOR as a shared library (.so)
+
+* Add `-DUSE_SHARED_TINYCBOR_LIBRARY=OFF` to skip building of tinyCBOR as static libraries (.a)
+
+Install built libraries into /usr/local/lib and headers into /usr/local/include (sudo is needed if /usr/local/lib or /usr/local/include are owned by the root user):
+
+```sh
+sudo cmake --install .
+```
+
+#### Using preinstalled tinyCBOR
+
+If you already installed the required tinyCBOR version and don't want to rebuild it from the checkouted GIT submodule use the following build option:
+
+* `-DBUILD_TINYCBOR=OFF`
+
+With this option CMake will use its internal `find_package` module to look for the tinyCBOR library in standard library installation folders.
+
 ### Building with mbedTLS as a shared library
 
 For secure builds the mbedTLS library is used, by default it is compiled as a static library and linked with the IoTivity libraries. It is possible to link IoTivity libraries dynamically with the mbedTLS library. To do so, use the following build option:
@@ -87,3 +109,11 @@ sudo cmake --install .
 
 Please note that IoTivity-lite uses a patched version of the mbedTLS library. The applied patches can be found in ``<iotivity-root>/patches`` directory. Therefore, a native build of mbedTLS from the official mbedTLS repository won't link with the IoTivity-lite libraries.
 If you want to save space by using mbedTLS in IoTivity-lite targets and in your custom target, you must use the patched version. The easiest way is to link your custom target with the mbedTLS libraries created by the IoTivity-lite installation.
+
+#### Using preinstalled mbedTLS
+
+If you already installed the required mbedTLS version and don't want to rebuild it from the checkouted GIT submodule use the following build option:
+
+* `-DBUILD_MBEDTLS=OFF`
+
+With this option CMake will use its internal `find_package` module to look for the mbedTLS library in standard library installation folders.
